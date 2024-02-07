@@ -168,7 +168,7 @@
 
   .actions-container > button {
     justify-content: center;
-    padding: 2em;
+    padding: 1em;
   }
 
   .actions-container > button > span {
@@ -177,8 +177,9 @@
 
   .logo {
     display: block;
-    margin-left: 4em;
-    width: 300px;
+    margin-left: auto;
+    margin-right: 3em;
+    width: 30%;
     height: 100%;
     filter: invert(0);
   }
@@ -242,42 +243,3 @@
     font-size: 1rem;
   }
 }
-
-/* @media only screen and (max-width: 500px) {
-  .actions-container > button {
-    padding: 1em;
-  }
-
-  .logo {
-    margin-left: 2em;
-    width: 150px;
-  }
-
-  .el-container > div {
-    right: 2.5em;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .logo {
-    margin-left: 2em;
-    width: 100px;
-  }
-
-  .el-container > div {
-    right: 2em;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .actions-container > button {
-    padding: 0.5em;
-  }
-
-  .logo {
-    margin-left: 1.5em;
-  }
-
-  .el-container > div {
-    right: 1.5em;
-  } */
