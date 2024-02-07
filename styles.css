@@ -194,26 +194,25 @@
   }
 
   .el-container {
-    height: 3em;
+    height: 2.5em;
     color: var(--text-color);
     font-size: 3rem;
     border-radius: 0.5em;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 
   .el-container > div {
     width: 10%;
     height: 100%;
+    margin-right: auto;
     background-color: var(--primary-color);
-    position: relative;
-    right: 6.5em;
   }
 
   .el-container > p {
-    padding-right: 1.5em;
+    margin-right: auto;
   }
 
   .numbers-container > div:nth-child(even) {
@@ -243,3 +242,42 @@
     font-size: 1rem;
   }
 }
+
+/* @media only screen and (max-width: 500px) {
+  .actions-container > button {
+    padding: 1em;
+  }
+
+  .logo {
+    margin-left: 2em;
+    width: 150px;
+  }
+
+  .el-container > div {
+    right: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .logo {
+    margin-left: 2em;
+    width: 100px;
+  }
+
+  .el-container > div {
+    right: 2em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .actions-container > button {
+    padding: 0.5em;
+  }
+
+  .logo {
+    margin-left: 1.5em;
+  }
+
+  .el-container > div {
+    right: 1.5em;
+  } */
